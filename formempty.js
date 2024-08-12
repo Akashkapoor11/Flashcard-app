@@ -15,5 +15,3 @@ const Empty = ({ onClick }) => (
     </button>
   </div>
 )
-
-export default Empty
