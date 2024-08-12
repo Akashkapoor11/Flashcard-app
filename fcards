@@ -23,5 +23,3 @@ const FlashCards = ({ edit, onClick, data, destroy }) => {
     </div>
   )
 }
-
-export default FlashCards
