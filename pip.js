@@ -10,5 +10,3 @@ const Pip = props => (
     />
   </li>
 )
-
-export default Pip
