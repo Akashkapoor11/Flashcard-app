@@ -43,5 +43,3 @@ const EditForm = ({ editQuestionValue, editAnswerValue, onSubmit, onClick, onCha
     </div>
   </div>
 )
-
-export default EditForm
