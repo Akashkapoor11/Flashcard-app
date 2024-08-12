@@ -12,5 +12,3 @@ const Indicators = props => (
     ))}
   </ul>
 )
-
-export default Indicators
