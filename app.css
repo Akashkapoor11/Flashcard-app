@@ -1,0 +1,132 @@
+html,
+body {
+  font-family: 'Cabin', sans-serif;
+  font-size: 1rem;
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#nav-container {
+  background-color: none;
+  border-radius: 10px;
+  left: 0;
+  position: fixed;
+  top: 0;
+  height: 10px;
+}
+
+.title {
+  padding-top: 10px;
+}
+
+.vertical-center {
+  align-items: center;
+  display: flex;
+  min-height: 90vh;
+}
+
+.flashcard {
+  margin: 10px 0;
+}
+
+.edit {
+  background: transparent;
+  border: none;
+  bottom: 0;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-right: 200px;
+  position: absolute;
+  right: -130px;
+}
+
+.destroy {
+  background: transparent;
+  border: none;
+  bottom: 0;
+  cursor: pointer;
+  margin-bottom: 15px;
+  position: absolute;
+  right: 30px;
+}
+
+.destroy:focus,
+.edit:focus {
+  outline: none;
+}
+
+.btn-edit-save {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.btn-edit-cancel {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.card-container {
+  margin: auto;
+  width: 70%;
+}
+
+.btn-save-card {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.slide-arrow {
+  color: #007bff;
+  cursor: pointer;
+  font-size: 2rem;
+  position: fixed;
+  top: 49%;
+}
+
+.slide-arrow.right {
+  right: 10%;
+}
+
+.slide-arrow.left {
+  left: 10%;
+}
+
+.practice {
+  text-align: center;
+}
+
+.answer {
+  font-weight: 700;
+}
+
+.show-answer,
+.answer-text {
+  margin-left: 0;
+  font-size: 20px;
+}
+
+.carousel-indicators {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-indicator {
+  display: block;
+  width: 24px;
+  margin-top: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 3px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.carousel-indicator-active {
+  background-color: #d9534f;
+}
